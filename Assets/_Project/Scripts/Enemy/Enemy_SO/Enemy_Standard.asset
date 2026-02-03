@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84605245e9876c34c96599b138f9c7c0, type: 3}
+  m_Name: Enemy_Standard
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySO
+  MoveSpeed: 10
+  health: 10
+  bulletPrefab: {fileID: 6753733481098179539, guid: 7cb0118a92676b746a885178f13e8819, type: 3}
+  spawnChance: 50
+  moveDistance: 5
+  shootInterval: 2
