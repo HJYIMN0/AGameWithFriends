@@ -37,6 +37,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &792083739239475985
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -82,6 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -91,7 +93,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &4552896590571706996
 MonoBehaviour:
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f5f4f8e7871234f9ca1c8253182bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletLogic
-  bulletData: {fileID: 11400000, guid: 97d3711b2452e0d46a66e77f247417ff, type: 2}
+  bulletData: {fileID: 11400000, guid: 8c66405a1d1914d49a145865a51e71dd, type: 2}
 --- !u!50 &4916096452605741514
 Rigidbody2D:
   serializedVersion: 5
